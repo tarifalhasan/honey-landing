@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ComicSansMS";
+  src: url("./assets/ComicSansMS.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ComicSansMSBold";
+  src: url("./assets/ComicSansMSBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FFFFA8] h-full font-comic text-black;
+  }
+}
+
+@layer components {
+  .header_logo {
+    color: #f5c11e;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.hero_title {
+  color: var(--color-orange-50, #ffa500);
+  text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.6) !important;
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #5a5a5a;
+}
+
+.roadmap_text {
+  color: var(--color-orange-50, #ffa500);
+  text-shadow: 0px 5px 0px rgba(0, 0, 0, 0.3);
+  font-style: normal;
+  font-weight: var(--font-weight-400, 400);
+  line-height: var(--line-height-210, 210px); /* 140% */
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #5a5a5a;
+}
