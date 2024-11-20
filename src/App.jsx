@@ -39,65 +39,65 @@ export default function App() {
 
   const images = [
     {
-      imgScr: "/1.png",
+      imgScr: "/gallary/1.png",
       title: "",
       id: 20,
     },
     {
-      imgScr: "/2.png",
+      imgScr: "/gallary/2.png",
       title: "",
       id: 21,
     },
     {
-      imgScr: "/3.png",
+      imgScr: "/gallary/3.png",
       title: "",
       id: 23,
     },
     {
-      imgScr: "/4.png",
+      imgScr: "/gallary/4.png",
       title: "",
       id: 24,
     },
     {
-      imgScr: "/5.png",
+      imgScr: "/gallary/5.png",
       title: "",
       id: 25,
     },
     {
-      imgScr: "/6.png",
+      imgScr: "/gallary/6.png",
       title: "",
       id: 26,
     },
-    {
-      imgScr: "/7.png",
-      title: "",
-      id: 7,
-    },
-    {
-      imgScr: "/8.png",
-      title: "",
-      id: 28,
-    },
-    {
-      imgScr: "/9.png",
-      title: "",
-      id: 29,
-    },
-    {
-      imgScr: "/10.png",
-      title: "",
-      id: 30,
-    },
-    {
-      imgScr: "/11.png",
-      title: "",
-      id: 31,
-    },
-    {
-      imgScr: "/12.png",
-      title: "",
-      id: 32,
-    },
+    // {
+    //   imgScr: "/7.png",
+    //   title: "",
+    //   id: 7,
+    // },
+    // {
+    //   imgScr: "/8.png",
+    //   title: "",
+    //   id: 28,
+    // },
+    // {
+    //   imgScr: "/9.png",
+    //   title: "",
+    //   id: 29,
+    // },
+    // {
+    //   imgScr: "/10.png",
+    //   title: "",
+    //   id: 30,
+    // },
+    // {
+    //   imgScr: "/11.png",
+    //   title: "",
+    //   id: 31,
+    // },
+    // {
+    //   imgScr: "/12.png",
+    //   title: "",
+    //   id: 32,
+    // },
   ];
   return (
     <div className="bg-[#FFFFA8] min-h-screen relative overflow-hidden h-full">
@@ -128,8 +128,8 @@ export default function App() {
         <div>
           <img
             className="lg:w-[340px] xl:w-[400px] 2xl:w-[520px] block mx-auto"
-            src="/m.svg"
-            alt=""
+            src="/bee.png"
+            alt="bee"
           />
         </div>
         <div className="bg-bulb absolute -top-[24%] xl:top-[-20%] left-[15%] lg:left-[38%] -z-10 lg:w-[952px] lg:h-[952px] w-[550px] h-[550px] rounded-full"></div>
@@ -137,14 +137,8 @@ export default function App() {
       </section>
       {/* section 2 */}
       <section className="relative z-40  overflow-hidden bg-bg_2 py-16 xl:py-20">
-        <div className="container flex flex-col gap-14 lg:gap-20 items-center">
-          <div className="inline-flex mx-auto justify-center">
-            <div className="border  inline-flex items-center  justify-center border-black  backdrop-blur-[12px] px-10 lg:px-24  py-6 lg:py-16 bg-white/10 rounded-[16px] lg:rounded-[30px]">
-              <p className="text-4xl -mt-2.5 lg:-mt-4 roadmap_text !leading-none lg:text-8xl ">
-                Roadmap
-              </p>
-            </div>
-          </div>
+        <div className="container flex -space-y-8 lg:-space-y-16 flex-col items-center">
+          <img src="/roadmap.png" className="w-full" alt="" />
           <div className="max-w-7xl w-full">
             <div className="relative flex flex-col md:flex-row gap-4 md:gap-8 items-center justify-center">
               {phases.map((phase, index) => (
@@ -198,9 +192,9 @@ export default function App() {
           </div>
         </div>
       </section>
-      <section>
-        <img src="/5tl8l8.webp" className="w-full object-cover" />
-      </section>
+      {/* <section>
+        <img src="/5tl8l8uc1nr91.jpg" className="w-full object-cover" />
+      </section> */}
 
       <section className=" px-4 py-16 md:py-24">
         <div className="container mx-auto max-w-6xl">

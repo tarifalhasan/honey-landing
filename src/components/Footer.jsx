@@ -22,10 +22,10 @@ const Footer = () => {
         </h4>
         <ul className="inline-flex items-center gap-2 mt-2.5">
           <a href="http://" target="_blank" rel="noopener noreferrer">
-            <FaTelegramPlane className="text-3xl text-[red] xl:text-5xl" />
+            <FaTelegramPlane className="text-3xl hover:text-blue-500 transition-colors duration-700 text-[red] xl:text-5xl" />
           </a>
           <a href="http://" target="_blank" rel="noopener noreferrer">
-            <FaXTwitter className="text-3xl text-[red] xl:text-5xl" />
+            <FaXTwitter className="text-3xl hover:text-blue-500 transition-colors duration-700 text-[red] xl:text-5xl" />
           </a>
         </ul>
       </div>
