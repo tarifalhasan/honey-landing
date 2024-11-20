@@ -127,7 +127,7 @@ export default function App() {
         </h2>
         <div>
           <img
-            className="lg:w-[340px] xl:w-[400px] 2xl:w-[520px] block mx-auto"
+            className="lg:w-[340px] w-[260px] xl:w-[400px] 2xl:w-[520px] block mx-auto"
             src="/bee.png"
             alt="bee"
           />
